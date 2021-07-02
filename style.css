@@ -1,0 +1,56 @@
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+.banner-container{
+    border-radius: 100px;
+}
+
+img{
+    border-radius: 10px;
+}
+.nav-list {
+    background-color: #2F5D62;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-left: auto;
+    padding-top: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+    
+}
+.new-link {
+    background-color: skyblue;
+    align-items: center;
+    font-style: normal;
+    text-align: left;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+.new-link:hover {
+    background-color: green; 
+}
+.end {
+    background-color: skyblue;
+}
+.dev{
+    padding-left: 1000px;
+    font-size: larger;
+    padding-bottom: 5px;
+    margin-left: auto;
+    padding-top: 10px;
+    list-style-type: none;
+    border-radius: 50px;
+    background-color: #5E8B7E;
+    
+}
+.rol {
+    background-color: #926E6F;
+}
+.lol {
+    background-color: #E6C4C0;
+}

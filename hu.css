@@ -1,0 +1,106 @@
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    border: 2px solid black;
+    text-align: left;
+}
+.nav-links:hover{
+    background-color: white; 
+}
+
+button {
+    margin: auto;
+    padding: auto;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    
+
+}
+
+.about {
+    font-size: xx-large;
+    background-color: #A7C4BC;
+    border-radius: 20px;
+    
+}
+.para {
+    font-size: large;
+    background-color: #DFEEEA;
+}
+img{
+    align-items: center;
+}
+.contact {
+    font-size: xx-large;
+    background-color: #999B84;
+    border-radius: 20px;
+}
+.footer {
+    color: white;
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: #CA8A8B;
+}
+* {
+    box-sizing: border-box;
+    
+  }
+  .menu {
+    float: left;
+    width: 40%;
+    font-size: larger;
+    padding-left: 10px;
+    background-color: #f1f1f1;
+    
+  }
+  .menuitem {
+    padding: 4px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main {
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+    overflow: hidden;
+    
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    font-size: larger;
+  }
+
+  .food {
+   
+  }
+  .style {
+      background-color: rgb(165, 235, 235);
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  .food {
+    color: white;
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: #E6C4C0;
+}
